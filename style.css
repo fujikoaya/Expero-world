@@ -1,0 +1,116 @@
+.background-img{
+    background-image: url(./img/hill.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+ul{
+    display: flex;
+}
+.header-left img{
+    width: auto;
+    height: 40px;
+}
+li{
+    margin-left: 55px;
+    font-size: 20px;
+    color: white;
+}
+.title-wrap{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    color: white;
+    text-align: center;
+}
+.main-title{
+    font-size: 120px;
+    font-weight: bold;
+    width: 900px;
+    word-wrap: break-word;
+    line-height:1;
+}
+.subtitle{
+    font-size: 26px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.contents{
+    margin: 0 70px;
+    margin-top: 100px;
+    
+}
+.subject{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.container img{
+    width: 38%;
+    height: auto;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+}
+.text{
+    margin-left: 40px;
+}
+#plan h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.card{
+    border: 1px solid black;
+    margin: 0 15px;
+    padding: 15px 20px;
+}
+input{
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    width: 40%;
+    padding: 5px;
+}
+textarea{
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 40%;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+button{
+    border: 1px solid navy;
+    background-color: navy;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 20px 80px 60px;
+}
+footer{
+    margin-top: 100px;
+    background-color: navy;
+    padding: 25px 0;
+    text-align: center;
+    color: white;
+}
